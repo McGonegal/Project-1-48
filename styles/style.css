@@ -1,6 +1,137 @@
 header {
-  height: 50vh;
-  background-image: url(../assets/header-image.jpg);
+  height: 90vh;
+  background-image: url(./assets/header-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-family: "Pompiere", cursive;
+  font-size: 1.79rem;
+  margin: 0;
+  line-height: 36px;
+  letter-spacing: 1.1px;
+}
+
+.shoeKloset {
+  width: 100px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.navBarFlexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBarBox {
+  width: 550px;
+}
+
+.headerNavBar {
+  font-family: "Lato", sans-serif;
+  display: center;
+  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#Home {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+#Home:hover {
+  background-color: #4C0341;
+  color: white;
+}
+
+.titleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  height: 500px;
+  width: 400px;
+}
+
+h1 {
+  font-family: "Pompiere", cursive;
+  font-weight: 500;
+  color: #4C0341;
+  line-height: 64px;
+  font-size: 5.5rem;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.floatingPicture {
+  height: 1100px;
+  width: 900px;
+  display: inline-block;
+  position: relative;
+  left: 380px;
+}
+
+.sea {
+  height: 90vh;
+  background-color: #fae5ff;
+}
+
+.seaText {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.seaH2 {
+  font-family: "Pompiere", cursive;
+  font-weight: 500;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+.seaP {
+  letter-spacing: 1.3px;
+  font-size: 1.2rem;
+}
+
+.seaButton {
+  background-color: #4C0341;
+  border: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  width: 250px;
+  height: 50px;
 }
 
 html {
@@ -15,11 +146,6 @@ body {
 
 article, aside, footer, header, nav, section {
   display: block;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 
 figcaption, figure, main {
@@ -231,12 +357,34 @@ html {
   overflow: hidden;
 }
 
-.html {
+html {
   font-size: 125%;
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 90%;
+  max-width: 1400px;
+  width: 95%;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin: 0;
 }
