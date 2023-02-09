@@ -1,139 +1,3 @@
-header {
-  height: 90vh;
-  background-image: url(./assets/header-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  font-family: "Pompiere", cursive;
-  font-size: 1.79rem;
-  margin: 0;
-  line-height: 36px;
-  letter-spacing: 1.1px;
-}
-
-.shoeKloset {
-  width: 100px;
-  display: inline-block;
-  margin-top: 40px;
-}
-
-.navBarFlexBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.navBarBox {
-  width: 550px;
-}
-
-.headerNavBar {
-  font-family: "Lato", sans-serif;
-  display: center;
-  font-weight: bold;
-  line-height: 29px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#Home {
-  display: inline-block;
-  width: 90px;
-  text-align: center;
-}
-
-#Home:hover {
-  background-color: #4C0341;
-  color: white;
-}
-
-.titleContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.title {
-  height: 500px;
-  width: 400px;
-}
-
-h1 {
-  font-family: "Pompiere", cursive;
-  font-weight: 500;
-  color: #4C0341;
-  line-height: 64px;
-  font-size: 5.5rem;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-}
-
-.floatingPicture {
-  height: 1100px;
-  width: 900px;
-  display: inline-block;
-  position: relative;
-  left: 380px;
-}
-
-.sea {
-  height: 90vh;
-  background-color: #fae5ff;
-}
-
-.seaText {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-.seaH2 {
-  font-family: "Pompiere", cursive;
-  font-weight: 500;
-  font-size: 2.6rem;
-  text-transform: uppercase;
-}
-
-.seaP {
-  letter-spacing: 1.3px;
-  font-size: 1.2rem;
-}
-
-.seaButton {
-  background-color: #4C0341;
-  border: none;
-  color: white;
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  width: 250px;
-  height: 50px;
-}
-
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -381,10 +245,229 @@ ul li a {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
   margin: 0;
+}
+
+h6 {
+  font-size: 2.1rem;
+  font-family: "Pompiere", cursive;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0;
+}
+
+p {
+  letter-spacing: 1.3px;
+  font-size: 1.2rem;
+}
+
+button {
+  border: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  height: 90vh;
+  background-image: url(./assets/header-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  font-family: "Pompiere", cursive;
+  font-size: 1.79rem;
+  margin: 0;
+  line-height: 36px;
+  letter-spacing: 1.1px;
+}
+
+.shoeKloset {
+  width: 100px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.navBarFlexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBarBox {
+  width: 550px;
+}
+
+.headerNavBar {
+  font-family: "Lato", sans-serif;
+  display: center;
+  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#Home {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+#Home:hover {
+  background-color: #4C0341;
+  color: white;
+}
+
+.titleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  height: 500px;
+  width: 400px;
+}
+
+h1 {
+  font-family: "Pompiere", cursive;
+  font-weight: 500;
+  color: #4C0341;
+  line-height: 64px;
+  font-size: 5.5rem;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.floatingPicture {
+  height: 1100px;
+  width: 900px;
+  display: inline-block;
+  position: relative;
+  left: 380px;
+}
+
+.sea {
+  height: 90vh;
+  background-color: #fae5ff;
+}
+
+.seaText {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.seaH2 {
+  font-family: "Pompiere", cursive;
+  font-weight: 500;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+.seaButton {
+  background-color: #4C0341;
+  width: 250px;
+  height: 50px;
+}
+
+.additions {
+  height: 95vh;
+}
+
+.additionsFlex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.additionTextBox1 {
+  height: 300px;
+  width: 600px;
+  margin-right: 60px;
+  margin-top: 90px;
+  text-align: left;
+}
+
+.additionImgBox1 {
+  display: inline-block;
+  height: 400px;
+  width: 750px;
+  -webkit-box-shadow: 40px 40px #FE6F19;
+          box-shadow: 40px 40px #FE6F19;
+  position: relative;
+  bottom: 40px;
+  right: 270px;
+}
+
+.additionButton {
+  background-color: #882C07;
+  width: 150px;
+  height: 50px;
+}
+
+.additionsFlex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: space-between;
+}
+
+.additionTextBox2 {
+  height: 400px;
+  width: 600px;
+  margin-top: 90px;
+  text-align: right;
+  position: relative;
+  right: 100px;
+}
+
+.additionImgBox2 {
+  display: inline-block;
+  height: 400px;
+  width: 750px;
+  -webkit-box-shadow: -40px -40px #FE6F19;
+          box-shadow: -40px -40px #FE6F19;
+  position: relative;
+  top: 40px;
+  left: 270px;
+}
+
+.locations {
+  height: 70vh;
+  background-color: #fae5ff;
 }
