@@ -127,7 +127,7 @@ h1 {
 // New Additions
 
 .additions {
-    height: 95vh;
+    height: 90vh;
 }
 
 .additionsFlex1 {
@@ -138,10 +138,12 @@ h1 {
 
 .additionTextBox1 {
     height: 300px;
-    width: 600px;
+    width: 500px;
     margin-right: 60px;
     margin-top: 90px;
     text-align: left;
+    position: relative;
+    left: 100px;
 }
 
 .additionImgBox1 {
@@ -172,21 +174,77 @@ h1 {
     text-align: right;
     position: relative;
     right: 100px;
+    top: 25px;
 }
 
 .additionImgBox2 {
     display: inline-block;
-    height: 400px;
-    width: 750px;
-    box-shadow: -40px -40px #FE6F19;
+    height: 450px;
+    width: 700px;
+    box-shadow: -40px 40px #FE6F19;
     position: relative;
-    top: 40px;
-    left: 270px;
+    left: 370px;
+    top: 100px;
+    
 }
 
 // location sections
 
 .locations {
-    height: 70vh;
+    height: 85vh;
     background-color: #fae5ff;
+}
+
+.locationList {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationDiv {
+    width: 35vw;
+}
+
+.listMargin {
+    margin-top: 200px;
+}
+
+// Banner
+
+.banner {
+    height: 60vh;
+    background-position: center;
+}
+
+// Popular
+
+.popular {
+    height: 45vh;
+}
+
+.popularFlex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.imagePopular {
+    height: 25%;
+    width: 25%;
+    margin-right: 120px;
+    box-shadow: 40px 40px #FE6F19;
+}
+
+.popularButton {
+    background-color: #882C07;
+    width: 220px;
+    height: 50px;
+}
+
+.popularText {
+    width: 50vw;
 }
