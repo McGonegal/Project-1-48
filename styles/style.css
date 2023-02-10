@@ -286,6 +286,7 @@ h3 {
   display: inline-block;
   text-transform: uppercase;
   color: #0D0D0D;
+  font-weight: 100;
 }
 
 h5 {
@@ -296,6 +297,7 @@ h5 {
   display: inline-block;
   text-transform: uppercase;
   color: #0D0D0D;
+  font-weight: 100;
 }
 
 header {
@@ -349,13 +351,13 @@ header {
           justify-content: space-evenly;
 }
 
-#Home {
+.nav {
   display: inline-block;
-  width: 90px;
+  width: 100%;
   text-align: center;
 }
 
-#Home:hover {
+.nav:hover {
   background-color: #4C0341;
   color: white;
 }
@@ -559,4 +561,46 @@ h1 {
 
 .popularText {
   width: 50vw;
+}
+
+.gallery {
+  background-color: #fae5ff;
+  height: 60vh;
+}
+
+.galleryFlex {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: no wrap;
+      flex-wrap: no wrap;
+}
+
+.ulPopular {
+  height: 100%;
+}
+
+.galleryLi {
+  height: 70%;
+  margin-top: 80px;
+  margin-right: 30px;
+}
+
+.footerHome {
+  height: 8vh;
+  background-color: #882C07;
+}
+
+.footerP {
+  margin-top: 0;
+  padding-top: 20px;
+  color: #ffffff;
+  text-align: center;
 }
