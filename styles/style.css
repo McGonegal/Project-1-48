@@ -374,6 +374,18 @@ h5 {
   font-weight: 100;
 }
 
+.footerHome {
+  height: 8vh;
+  background-color: #882C07;
+}
+
+.footerP {
+  margin-top: 0;
+  padding-top: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
 .blogHeader {
   height: 90vh;
   background-image: url(./assets/blog-header.jpg);
@@ -410,6 +422,7 @@ h5 {
   left: 260px;
   -webkit-box-shadow: -40px 40px #fe6f19;
           box-shadow: -40px 40px #fe6f19;
+  background-color: #ffffff;
 }
 
 .blogAside {
@@ -438,7 +451,7 @@ ol {
 }
 
 .asideLi {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-size: 1.2rem;
 }
 
@@ -449,14 +462,12 @@ ol {
 .blogContentText {
   width: 105%;
   background-color: #ffffff;
-  position: relative;
-  bottom: 160px;
-  left: 220px;
 }
 
 .blogH5 {
   color: #4c0341;
   margin-left: 50px;
+  padding-top: 100px;
 }
 
 .blogPara {
@@ -469,6 +480,81 @@ ol {
   margin-left: 50px;
   padding-top: 5px;
   padding-bottom: 50px;
+}
+
+.asideImage {
+  width: 170%;
+  position: relative;
+  right: 265px;
+  bottom: 20px;
+}
+
+.comment1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.commentImage1 {
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.commentsP {
+  line-height: 40px;
+}
+
+.comment2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+.inputComments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.forms1 {
+  width: 55%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #fe6f19;
+  margin-right: 10px;
+}
+
+.input1 {
+  border: none;
+  background-color: #fae5ff;
+}
+
+.forms2 {
+  margin-top: 25px;
+  height: 400px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fe6f19;
+}
+
+.input2 {
+  border: none;
+  background-color: #fae5ff;
+  width: 90%;
+  height: 90%;
+}
+
+.commentButton {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  height: 50px;
+  background-color: #4C0341;
+  width: 100%;
 }
 
 .indexHeader {
@@ -697,16 +783,4 @@ ol {
   height: 70%;
   margin-top: 80px;
   margin-right: 30px;
-}
-
-.footerHome {
-  height: 8vh;
-  background-color: #882C07;
-}
-
-.footerP {
-  margin-top: 0;
-  padding-top: 20px;
-  color: #ffffff;
-  text-align: center;
 }
