@@ -31,11 +31,11 @@
 }
 
 .floatingPicture {
-    height: 1100px;
-    width: 900px;
+    height: 70%;
+    width: 60%;
     display: inline-block;
     position: relative;
-    left: 380px;
+    left: 258px;
 }
 
 // What's under the sea section
@@ -59,6 +59,7 @@
     font-weight: 500;
     font-size: 2.6rem;
     text-transform: uppercase;
+    padding: 0%;
 }
 
 .seaButton {
@@ -70,7 +71,7 @@
 // New Additions
 
 .additions {
-    height: 90vh;
+    height: 100vh;
 }
 
 .additionsFlex1 {
@@ -80,8 +81,8 @@
 
 
 .additionTextBox1 {
-    height: 300px;
-    width: 500px;
+    height: 30%;
+    width: 40%;
     margin-right: 60px;
     margin-top: 90px;
     text-align: left;
@@ -91,8 +92,8 @@
 
 .additionImgBox1 {
     display: inline-block;
-    height: 400px;
-    width: 750px;
+    height: 30%;
+    width: 50%;
     box-shadow: 40px 40px #FE6F19;
     position: relative;
     bottom: 40px;
@@ -111,19 +112,19 @@
 }
 
 .additionTextBox2 {
-    height: 400px;
-    width: 600px;
+    height: 30%;
+    width: 40%;
     margin-top: 90px;
     text-align: right;
     position: relative;
     right: 100px;
-    top: 25px;
+    
 }
 
 .additionImgBox2 {
     display: inline-block;
-    height: 450px;
-    width: 700px;
+    height: 30%;
+    width: 50%;
     box-shadow: -40px 40px #FE6F19;
     position: relative;
     left: 370px;
@@ -134,7 +135,7 @@
 // location sections
 
 .locations {
-    height: 85vh;
+    
     background-color: #fae5ff;
 }
 
@@ -144,6 +145,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .locationDiv {
@@ -189,14 +191,14 @@
 }
 
 .popularText {
-    width: 50vw;
+    width: 50%;
 }
 
 // Gallery
 
 .gallery {
     background-color: #fae5ff;
-    height: 60vh;
+    height: 100%vh;
 }
 
 .galleryFlex {
@@ -214,8 +216,52 @@
 .galleryLi {
    height: 70%;
    margin-top: 80px;
-   margin-right: 30px;;
+   margin-right: 30px;
+   margin-bottom: 50px;
+}
+
+// media queries
+
+@media (max-width: 1620px) {
+
+    .additionImgBox1 {
+        display: none;
+    }
+    .additionImgBox2 {
+        display: none;
+        
+    }
+    .additionsFlex1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .additionsFlex2 {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1420px) {
+
+
+    .galleryFlex {
+        flex-direction: column;
+        flex-wrap: nowrap;
+       }
 }
 
 
+@media (max-width: 1390px) {
+    .locationList {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+    
+    }
 
+    .listMargin {
+        margin-top: 0px;
+    }
+}
