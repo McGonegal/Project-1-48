@@ -70,8 +70,13 @@
     flex-grow: 1;
     padding-left: 40px;
     font-size: 1.1rem;
-    border-bottom: solid;
-    border-bottom-width: 2px;
-    border-bottom: variable.$orange;
+    
 }
 
+.largeContactMessage {
+    height: 80%;
+    width: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-color: variable.$orange;
+}
