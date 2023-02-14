@@ -6,6 +6,9 @@ html { box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+@use './variables';
+
 // Global styles
 
 //     font-family: 'Lato', sans-serif;
@@ -58,14 +61,14 @@ html {
 }
 
 .nav:hover {
-    background-color: #4C0341;
-    color: white;
+    background-color: variables.$plum;
+    color: variables.$white;
 }
 
 h1 {
     font-family: 'Pompiere', cursive;
     font-weight: 500;
-    color: #4C0341;
+    color: variables.$plum;
     line-height: 64px;
     font-size: 5.5rem;
     height: 100%;
@@ -75,7 +78,7 @@ h1 {
 
 h2 {
     font-family: 'Pompiere', cursive;
-    color: #4C0341;
+    color: variables.$plum;
     line-height: 92px;
     font-size: 4.1rem;
     height: 100%;
@@ -105,7 +108,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: variables.$black;
 }
 
 img {
@@ -121,7 +124,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 100;
     margin: 0;
-    color: #0D0D0D;
+    color: variables.$black;
 }
 
 p {
@@ -132,7 +135,7 @@ p {
 
 button {
     border: none;
-    color: white;
+    color: variables.$white;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 }
@@ -144,7 +147,7 @@ h3 {
     margin: 0;
     display: inline-block;
     text-transform: uppercase;
-    color: #0D0D0D;
+    color: variables.$black;
     font-weight: 100;
 }
 
@@ -155,7 +158,7 @@ h5 {
     margin: 0;
     display: inline-block;
     text-transform: uppercase;
-    color: #0D0D0D;
+    color: variables.$black;
     font-weight: 100;
 }
 
@@ -165,13 +168,13 @@ h5 {
 
 .footerHome {
     height: 8vh;
-    background-color:#882C07
+    background-color: variables.$brown;
 
 }
 
 .footerP {
     margin-top: 0;
     padding-top: 20px;
-    color: #ffffff;
+    color: variables.$white;
     text-align: center;
 }

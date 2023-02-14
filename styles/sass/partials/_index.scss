@@ -1,4 +1,4 @@
-@use 'variables';
+@use './variables';
 
 
 //     font-family: 'Lato', sans-serif;
@@ -63,7 +63,7 @@
 }
 
 .seaButton {
-    background-color: #4C0341;    
+    background-color: variables.$plum;    
     width: 250px;
     height: 50px;
 }
@@ -94,14 +94,14 @@
     display: inline-block;
     height: 30%;
     width: 50%;
-    box-shadow: 40px 40px #FE6F19;
+    box-shadow: 40px 40px variables.$orange;
     position: relative;
     bottom: 40px;
     right: 270px;
 }
 
 .additionButton {
-    background-color: #882C07;
+    background-color: variables.$brown;
     width: 150px;
     height: 50px;
 }
@@ -125,7 +125,7 @@
     display: inline-block;
     height: 30%;
     width: 50%;
-    box-shadow: -40px 40px #FE6F19;
+    box-shadow: -40px 40px variables.$orange;
     position: relative;
     left: 370px;
     top: 100px;
@@ -136,7 +136,7 @@
 
 .locations {
     
-    background-color: #fae5ff;
+    background-color: variables.$mauve;
 }
 
 .locationList {
@@ -181,11 +181,11 @@
     height: 25%;
     width: 25%;
     margin-right: 120px;
-    box-shadow: 40px 40px #FE6F19;
+    box-shadow: 40px 40px variables.$orange;
 }
 
 .popularButton {
-    background-color: #882C07;
+    background-color: variables.$brown;
     width: 220px;
     height: 50px;
 }
@@ -197,8 +197,8 @@
 // Gallery
 
 .gallery {
-    background-color: #fae5ff;
-    height: 100%vh;
+    background-color: variables.$mauve;
+    height: 100%;
 }
 
 .galleryFlex {

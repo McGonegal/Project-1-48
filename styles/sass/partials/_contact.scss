@@ -1,3 +1,5 @@
+@use './variables';
+
 // contact header
 
 .contactHeader {
@@ -11,7 +13,7 @@
 // main
 .contactMain {
    
-    background-color: #fae5ff;
+    background-color: variable.$mauve;
 }
 
 .contactMainFlex {
@@ -20,7 +22,7 @@
 
 .contact {
     height: 70vh;
-    background-color: #fae5ff;
+    background-color: variable.$mauve;
 }
 
 .contactInfo {
@@ -43,7 +45,7 @@
 }
 
 .conh6 {
-    color: #4c0341;
+    color: variable.$plum;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -51,11 +53,11 @@
 .contactForm {
     height: 60vh;
     width: 60%;
-    background-color: #ffffff;
+    background-color: variable.$white;
     position: relative;
     left: 200px;
     bottom: 300px;
-    box-shadow: -40px 40px #fe6f19;
+    box-shadow: -40px 40px variable.$orange;
 
 }
 
@@ -70,6 +72,6 @@
     font-size: 1.1rem;
     border-bottom: solid;
     border-bottom-width: 2px;
-    border-bottom: #fe6f19;
+    border-bottom: variable.$orange;
 }
 

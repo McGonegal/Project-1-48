@@ -557,6 +557,16 @@ ol {
   width: 100%;
 }
 
+@media (max-width: 1700px) {
+  .asideImage {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .blogContentImage {
+    display: none;
+  }
+}
 .indexHeader {
   height: 90vh;
   background-image: url(./assets/header-image.jpg);
