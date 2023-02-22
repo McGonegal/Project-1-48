@@ -13,8 +13,42 @@
     
     <script src="https://kit.fontawesome.com/4658e88ac2.js" crossorigin="anonymous"></script>
 
+    <style>
+        #overLay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,.5);
+}
+
+    #modal {
+    max-width: 900px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+    </style>
+
 </head>
 <body>
+    <div id = "overLay">
+        <div id = "modal">
+            <h5>What's happening in the world of shoes!</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tenetur eligendi fuga aut dolorum vitae minus quas eum, expedita consequuntur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus perferendis ad veritatis expedita distinctio nisi, dolorum nulla sunt adipisci laboriosam, neque nihil atque quaerat.
+            </p>
+            <button id = "closeModal">Close</button>
+        </div>
+    </div>
     <header class="indexHeader">
             <div class="wrapper">
                 <section class="navBar">
@@ -50,7 +84,7 @@
                 <div class="wrapper">
                     <h2 class="seaH2">What is under the sea?</h2>
                     <p class="seaP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt id ut quibusdam inventore ullam. Quis expedita voluptate blanditiis consequatur sed, ducimus dolore aspernatur quos! Culpa exercitationem qui, dolore amet ex repellendus non animi ratione impedit perspiciatis voluptatem earum voluptas numquam, laboriosam maxime officia corrupti.</p>
-                    <button class="seaButton">Find out more</button>
+                    <button class="seaButton" id="modalButton">Find out more</button>
                 </div>
             </div>
         </section>
@@ -149,5 +183,16 @@
         </div>
 
     </footer>
+    <script>
+        const overLay = document.querySelector("#overLay");
+
+document.querySelector("#modalButton").addEventListener('click', function(){
+    overLay.style.display = "block";
+})
+
+document.querySelector("#closeModal").addEventListener('click', function(){
+    overLay.style.display = "none";
+})
+    </script>
 </body>
 </html>
